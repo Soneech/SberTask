@@ -73,13 +73,13 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
     public void onClick(View view) {
         Intent intent = new Intent(this, CalculationActivity.class);
         if (sumTView.getText() != null && timeTView.getText() != null && valueTView.getText() != null) {
-            int[] values = new int[]{
+            int[] data = new int[]{
                     Integer.parseInt(sumTView.getText().toString()),
                     Integer.parseInt(timeTView.getText().toString()),
                     Integer.parseInt(valueTView.getText().toString()),
                     PERCENT
             };
-            intent.putExtra("data", values);
+            intent.putExtra("data", data);
             startActivity(intent);
         }
     }
