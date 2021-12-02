@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SberTask</string>
+    <string name="text1">Сумма при открытии счёта</string>
+    <string name="text2">На срок (в месяцах)</string>
+    <string name="text3">Ежемесячное пополнение</string>
+    <string name="text4">Ставка в год</string>
+    <string name="text5">Доход по счёту</string>
+    <string name="text6">Всего будет накоплено</string>
+    <string name="text7">Рассчитать</string>
+    <string name="text8">Назад</string>
+</resources>
